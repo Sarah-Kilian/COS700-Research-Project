@@ -1,8 +1,3 @@
-# React + Vite
+# Disclaimer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a proof of concept and unfortunately has a bug (that has only been spotted now) where nodes that are connnected to the left of a binary node are actually the right nodes and vice versa. So in order to produce the correct ouput, you will need to swap the connections from the binary operator.
