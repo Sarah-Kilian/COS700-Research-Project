@@ -1,3 +1,5 @@
-# Disclaimer
+# COS700 Research Project
+
+Linear Temporal Logic (LTL) is a formalism that enables precise specification of temporal requirements in software systems, playing a critical role in formal verification. As an extension of first-order logic, LTL requires expertise in mathematics and computer science for effective utilisation, creating an accessibility barrier for practitioners without this background. This research introduces a graph-based tool with an intuitive graphical user interface (GUI) that allows users to visually define system requirements. These requirements are then translated to LTL formulae automatically, effectively eliminating the need for in-depth knowledge of LTL syntax and semantics. Additionally, the tool also has an output which is compatible with the SPIN model checker, which will broaden access to formal verification and simplifying LTL generation for a wider range of users.
 
 This project is a proof of concept and unfortunately has a bug (that has only been spotted now) where nodes that are connnected to the left of a binary node are actually the right nodes and vice versa. So in order to produce the correct ouput, you will need to swap the connections from the binary operator.
